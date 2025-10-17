@@ -28,7 +28,7 @@ We've created an integration test script that you can run against your real Fath
 
 ### Quick Start
 
-1. Get your API key from [Fathom Settings](https://app.fathom.video/settings/integrations)
+1. Get your API key from you account [Fathom Settings](https://fathom.video/customize)
 
 2. Run the test script:
 
