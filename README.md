@@ -5,7 +5,7 @@
 This is a comprehensive Ruby gem for interacting with the [Fathom API](https://developers.fathom.ai). This gem provides easy access to Fathom's REST API for managing meetings, recordings, teams, webhooks, and more.
 
 [![CI](https://github.com/j4rs/fathom-ruby/workflows/CI/badge.svg)](https://github.com/j4rs/fathom-ruby/actions)
-[![Gem Version](https://badge.fury.io/rb/fathom-ruby.svg)](https://rubygems.org/gems/fathom-ruby)
+[![Gem Version](https://badge.fury.io/rb/fathom-ruby.svg)](https://badge.fury.io/rb/fathom-ruby)
 
 ## Features
 
