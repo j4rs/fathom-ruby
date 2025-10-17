@@ -483,7 +483,7 @@ bundle exec rubocop
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/yourusername/fathom-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/j4rs/fathom-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](CODE_OF_CONDUCT.md).
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -503,6 +503,6 @@ Everyone interacting in the Fathom Ruby project's codebases, issue trackers, cha
 
 - [Fathom API Documentation](https://developers.fathom.ai)
 - [Gem Documentation](https://rubydoc.info/gems/fathom-ruby)
-- [GitHub Repository](https://github.com/yourusername/fathom-ruby)
-- [Bug Reports](https://github.com/yourusername/fathom-ruby/issues)
+- [GitHub Repository](https://github.com/j4rs/fathom-ruby)
+- [Bug Reports](https://github.com/j4rs/fathom-ruby/issues)
 
