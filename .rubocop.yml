@@ -1,0 +1,59 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'tmp/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Layout/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/AbcSize:
+  Max: 20
+  Exclude:
+    - 'lib/fathom/client.rb'  # HTTP client needs complex response handling
+
+Metrics/CyclomaticComplexity:
+  Max: 7
+  Exclude:
+    - 'lib/fathom/client.rb'  # HTTP client has many response codes to handle
+
+Metrics/ParameterLists:
+  Max: 5
+  Exclude:
+    - 'lib/fathom/client.rb'  # Request retry logic needs multiple params
+
+Metrics/ClassLength:
+  Max: 100
+  Exclude:
+    - 'lib/fathom/client.rb'  # HTTP client is inherently complex
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - '*.gemspec'
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
+
+Naming/PredicateMethod:
+  Exclude:
+    - 'lib/fathom/resource.rb'  # delete is a REST method, not a predicate
+
