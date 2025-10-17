@@ -5,13 +5,12 @@ require_relative "lib/fathom/version"
 Gem::Specification.new do |spec|
   spec.name = "fathom-ruby"
   spec.version = Fathom::VERSION
-  spec.authors = ["Juan Rodriguez"]
-  spec.email = ["jrodriguez@example.com"]
+  spec.authors = ["Jorge Rodriguez"]
 
   spec.summary = "Ruby library for the Fathom API"
   spec.description = "A comprehensive Ruby gem for interacting with the Fathom API, supporting meetings, \
                       recordings, teams, webhooks, and more."
-  spec.homepage = "https://github.com/yourusername/fathom-ruby"
+  spec.homepage = "https://github.com/j4rs/fathom-ruby"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
 
