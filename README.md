@@ -91,7 +91,6 @@ end
 > - Response format is `{ items: [...] }`, not `{ data: [...] }`
 > - **Team Members**: No individual IDs - filter by team name instead
 > - **Recordings**: No list/retrieve endpoints - use specialized endpoints for summary/transcript
-> - See [API_CORRECTIONS.md](API_CORRECTIONS.md) for complete details on API structure
 
 ### Meetings
 
