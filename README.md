@@ -1,4 +1,4 @@
-# Fathom Ruby
+# Fathom API Ruby library
 
 [Fathom](https://fathom.ai) is an AI meeting assistant that records, transcribes, highlights, and summarizes your meetings so you can focus on the conversation.
 
